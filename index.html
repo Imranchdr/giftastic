@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Gif Tastic</title>
+
+    
+
+</head>
+
+<body>
+
+  <div class="container "="">
+<div id="citiesbuttons">
+
+    <button data-city="barcelona" style="margin: 5px;">
+      barcelona
+    </button>
+    <button data-city="paris"style="margin: 5px;">
+      paris
+    </button>
+    <button data-city="london"style="margin: 5px;">
+      london
+    </button>
+    <button data-city="bangkok"style="margin: 5px;">
+      bangkok    
+      </button>
+      <button data-city="tokyo"style="margin: 5px;">
+      tokyo
+    </button>
+      <button data-city="rome"style="margin: 5px;">
+      rome
+    </button>
+      <button data-city="newyork"style="margin: 5px;">
+      newyork
+    </button>
+      <button data-city="milan"style="margin: 5px;">
+      milan
+    </button>
+      <button data-city="dubai"style="margin: 5px;">
+      dubai
+    </button>
+      <button data-city="vienna"style="margin: 5px;">
+      vienna
+    </button>
+      </div>
+
+  <div id="gifs-appear-here">
+  </div>
+
+ <div id="theButton"></div>
+ <div id="gifs" style="float:left"></div>
+<!-- Write in section -->
+<div style="float:right; margin-top:90px;">
+ <h4>Add a city</h4>
+    <form id="gif-form">
+        <label for="gif-input"></label>
+        <input type="text" value="" id="gif-input"><br><br>
+        
+        <input type="submit" name="Button" class="btn btn-success" id="theButton" style="margin-left:8px">
+    </form>
+</div>
+<script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
